@@ -1,0 +1,162 @@
+
+/* Class = "UIButton"; normalTitle = "Make another order"; ObjectID = "01P-IY-6zr"; */
+"01P-IY-6zr.normalTitle" = "Make another order";
+
+/* Class = "UILabel"; text = "CONTRAST"; ObjectID = "01q-iK-TYe"; */
+"01q-iK-TYe.text" = "CONTRAST";
+
+/* Class = "UIButton"; normalTitle = "Frame4"; ObjectID = "0qN-s5-3cw"; */
+"0qN-s5-3cw.normalTitle" = "Frame4";
+
+/* Class = "UINavigationItem"; title = "step2: Select Image"; ObjectID = "4Sw-6e-BY0"; */
+"4Sw-6e-BY0.title" = "step2: Select Image";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "59a-ep-Zb7"; */
+"59a-ep-Zb7.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "5JH-0Y-tgj"; */
+"5JH-0Y-tgj.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Order Summary"; ObjectID = "5UO-aN-mh4"; */
+"5UO-aN-mh4.text" = "Order Summary";
+
+/* Class = "UINavigationItem"; title = "Order Preview"; ObjectID = "6vh-JU-4tU"; */
+"6vh-JU-4tU.title" = "Order Preview";
+
+/* Class = "UIButton"; normalTitle = "Back Cap"; ObjectID = "7iM-c0-V95"; */
+"7iM-c0-V95.normalTitle" = "Back Cap";
+
+/* Class = "UIButton"; normalTitle = "Frame3"; ObjectID = "8Nh-i5-9Ek"; */
+"8Nh-i5-9Ek.normalTitle" = "Frame3";
+
+/* Class = "UIButton"; normalTitle = "Frame2"; ObjectID = "8zX-kN-qyA"; */
+"8zX-kN-qyA.normalTitle" = "Frame2";
+
+/* Class = "UILabel"; text = "104.49"; ObjectID = "931-od-dqG"; */
+"931-od-dqG.text" = "104.49";
+
+/* Class = "UILabel"; text = "Edit Picture"; ObjectID = "AuS-cv-xKX"; */
+"AuS-cv-xKX.text" = "Edit Picture";
+
+/* Class = "UILabel"; text = "4.49"; ObjectID = "B0Y-HY-fur"; */
+"B0Y-HY-fur.text" = "4.49";
+
+/* Class = "UIButton"; normalTitle = "Golden Cap"; ObjectID = "HU7-qT-Tmi"; */
+"HU7-qT-Tmi.normalTitle" = "Golden Cap";
+
+/* Class = "UILabel"; text = "Payment view Controller"; ObjectID = "NFL-6v-Nmf"; */
+"NFL-6v-Nmf.text" = "Payment view Controller";
+
+/* Class = "UILabel"; text = "How many shot bottle do you want?"; ObjectID = "O4w-E5-zgo"; */
+"O4w-E5-zgo.text" = "How many shot bottle do you want?";
+
+/* Class = "UITextView"; text = "Mr & Mrs Smith"; ObjectID = "PhX-uL-GMY"; */
+"PhX-uL-GMY.text" = "Mr & Mrs Smith";
+
+/* Class = "UILabel"; text = "Order summary "; ObjectID = "Rw6-gM-JFf"; */
+"Rw6-gM-JFf.text" = "Order summary ";
+
+/* Class = "UILabel"; text = "*"; ObjectID = "UJe-le-Bpn"; */
+"UJe-le-Bpn.text" = "*";
+
+/* Class = "UILabel"; text = "Change the cap of the shot bottle"; ObjectID = "W1S-F5-Bl7"; */
+"W1S-F5-Bl7.text" = "Change the cap of the shot bottle";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "WSm-DP-ERy"; */
+"WSm-DP-ERy.text" = "100";
+
+/* Class = "UILabel"; text = "SATURATION"; ObjectID = "WvZ-dX-nbb"; */
+"WvZ-dX-nbb.text" = "SATURATION";
+
+/* Class = "UILabel"; text = "Tap on the text on the picture to change/edit. If you want to remove any line, make it blank"; ObjectID = "XBE-nD-Gkt"; */
+"XBE-nD-Gkt.text" = "Tap on the text on the picture to change/edit. If you want to remove any line, make it blank";
+
+/* Class = "UITextView"; text = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"; ObjectID = "XbY-da-nmd"; */
+"XbY-da-nmd.text" = "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s";
+
+/* Class = "UITextField"; placeholder = "Name(Required)"; ObjectID = "Xd6-tw-S7J"; */
+"Xd6-tw-S7J.placeholder" = "Name(Required)";
+
+/* Class = "UINavigationItem"; title = "Preview your order"; ObjectID = "bCm-8m-0wQ"; */
+"bCm-8m-0wQ.title" = "Preview your order";
+
+/* Class = "UINavigationItem"; title = "Preview"; ObjectID = "bbA-XR-u4l"; */
+"bbA-XR-u4l.title" = "Preview";
+
+/* Class = "UIButton"; normalTitle = "Frame1"; ObjectID = "bwT-bM-ZwM"; */
+"bwT-bM-ZwM.normalTitle" = "Frame1";
+
+/* Class = "UILabel"; text = "BRIGHTNESS"; ObjectID = "cjz-KL-DVi"; */
+"cjz-KL-DVi.text" = "BRIGHTNESS";
+
+/* Class = "UILabel"; text = "Thank You for the order"; ObjectID = "dJI-Hc-Wvx"; */
+"dJI-Hc-Wvx.text" = "Thank You for the order";
+
+/* Class = "UIButton"; normalTitle = "White Cap"; ObjectID = "fWO-IW-p12"; */
+"fWO-IW-p12.normalTitle" = "White Cap";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "fZh-Cd-hzb"; */
+"fZh-Cd-hzb.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Product preview"; ObjectID = "gGe-Cf-NyW"; */
+"gGe-Cf-NyW.text" = "Product preview";
+
+/* Class = "UILabel"; text = "1.25"; ObjectID = "hgM-a2-0Ph"; */
+"hgM-a2-0Ph.text" = "1.25";
+
+/* Class = "UITextField"; placeholder = "e-Mail Address(Required)"; ObjectID = "ifd-RG-GeB"; */
+"ifd-RG-GeB.placeholder" = "e-Mail Address(Required)";
+
+/* Class = "UIButton"; normalTitle = "Blank"; ObjectID = "jKV-v3-x1x"; */
+"jKV-v3-x1x.normalTitle" = "Blank";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "jX7-jf-ML1"; */
+"jX7-jf-ML1.text" = "100";
+
+/* Class = "UITextView"; text = "20/03/16"; ObjectID = "ksF-Yj-KEk"; */
+"ksF-Yj-KEk.text" = "20/03/16";
+
+/* Class = "UITextField"; placeholder = "Address 2"; ObjectID = "mLr-MK-uID"; */
+"mLr-MK-uID.placeholder" = "Address 2";
+
+/* Class = "UILabel"; text = "LIBRARY"; ObjectID = "may-Zf-Dlk"; */
+"may-Zf-Dlk.text" = "LIBRARY";
+
+/* Class = "UIButton"; normalTitle = "Pay Via PayPal"; ObjectID = "mt8-1o-jSs"; */
+"mt8-1o-jSs.normalTitle" = "Pay Via PayPal";
+
+/* Class = "UILabel"; text = "CAMERA"; ObjectID = "nMH-XA-lSx"; */
+"nMH-XA-lSx.text" = "CAMERA";
+
+/* Class = "UILabel"; text = "cap image"; ObjectID = "nyV-cA-OEc"; */
+"nyV-cA-OEc.text" = "cap image";
+
+/* Class = "UINavigationItem"; title = "Preview the label"; ObjectID = "oAF-Zd-0hg"; */
+"oAF-Zd-0hg.title" = "Preview the label";
+
+/* Class = "UILabel"; text = "Shot Bottle"; ObjectID = "q5V-ua-xOY"; */
+"q5V-ua-xOY.text" = "Shot Bottle";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "qKP-x0-8HR"; */
+"qKP-x0-8HR.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "qKf-kP-Hrv"; */
+"qKf-kP-Hrv.normalTitle" = "Next";
+
+/* Class = "UINavigationItem"; title = "Step 1: Select Image "; ObjectID = "qVQ-Jz-ejT"; */
+"qVQ-Jz-ejT.title" = "Step 1: Select Image ";
+
+/* Class = "UILabel"; text = "Select your image source"; ObjectID = "qX2-PB-Wol"; */
+"qX2-PB-Wol.text" = "Select your image source";
+
+/* Class = "UITextField"; placeholder = "Address 1(Required)"; ObjectID = "rUL-ta-QM6"; */
+"rUL-ta-QM6.placeholder" = "Address 1(Required)";
+
+/* Class = "UILabel"; text = "taken image"; ObjectID = "tZP-LA-2Bx"; */
+"tZP-LA-2Bx.text" = "taken image";
+
+/* Class = "UILabel"; text = "Shipping"; ObjectID = "tep-3r-2cv"; */
+"tep-3r-2cv.text" = "Shipping";
+
+/* Class = "UILabel"; text = "User Detail"; ObjectID = "xFq-uP-kEn"; */
+"xFq-uP-kEn.text" = "User Detail";

@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		380379851C3EEDC7003E90F9 /* bottleCapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380379841C3EEDC7003E90F9 /* bottleCapViewController.swift */; };
+		380379871C3EF4CF003E90F9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380379861C3EF4CF003E90F9 /* TableViewController.swift */; };
+		383ACB271C1EFA7E0025D1AD /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 383ACB241C1EFA7E0025D1AD /* bottle.png */; };
+		383ACB281C1EFA7E0025D1AD /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 383ACB251C1EFA7E0025D1AD /* camera.png */; };
+		383ACB291C1EFA7E0025D1AD /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 383ACB261C1EFA7E0025D1AD /* gallery.png */; };
+		383ACB2D1C1EFE6D0025D1AD /* bottle_shot.png in Resources */ = {isa = PBXBuildFile; fileRef = 383ACB2C1C1EFE6D0025D1AD /* bottle_shot.png */; };
+		38569A231C3E5BB100A9D867 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38569A211C3E5BB100A9D867 /* BWWalkthroughPageViewController.swift */; };
+		38569A241C3E5BB100A9D867 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38569A221C3E5BB100A9D867 /* BWWalkthroughViewController.swift */; };
+		38569A271C3E5BFC00A9D867 /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38569A251C3E5BFC00A9D867 /* CustomPageViewController.swift */; };
+		38569A281C3E5BFC00A9D867 /* walkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38569A261C3E5BFC00A9D867 /* walkViewController.swift */; };
+		38569A2A1C3E5C0F00A9D867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38569A291C3E5C0F00A9D867 /* LaunchScreen.storyboard */; };
+		38569A2C1C3E5D0100A9D867 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38569A2B1C3E5D0100A9D867 /* Walkthrough.storyboard */; };
+		388BD6A01C3F91A7008D9F5E /* billingPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BD69F1C3F91A7008D9F5E /* billingPreviewViewController.swift */; };
+		388BD6E11C41B53F008D9F5E /* cartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388BD6E01C41B53F008D9F5E /* cartViewController.swift */; };
+		721460001AD7A2A9002EDC2A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72145FFF1AD7A2A9002EDC2A /* GoogleMobileAds.framework */; };
+		721829E819E3DEE2004CCE9A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721829E719E3DEE2004CCE9A /* Home.swift */; };
+		721829ED19E3DEE2004CCE9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721829EC19E3DEE2004CCE9A /* Images.xcassets */; };
+		72182A0619E3E4D8004CCE9A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72182A0519E3E4D8004CCE9A /* CoreImage.framework */; };
+		72182A0819E3E4DD004CCE9A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72182A0719E3E4DD004CCE9A /* Social.framework */; };
+		72182A0B19E3EA25004CCE9A /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 72182A0A19E3EA25004CCE9A /* sample.png */; };
+		72182A0F19E408BE004CCE9A /* vignette.png in Resources */ = {isa = PBXBuildFile; fileRef = 72182A0E19E408BE004CCE9A /* vignette.png */; };
+		72182A1119E42721004CCE9A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72182A1019E42721004CCE9A /* AVFoundation.framework */; };
+		72BAB9FF1BB178AF0046F234 /* ImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAB9FE1BB178AF0046F234 /* ImageEditor.swift */; };
+		BF66A1101B08444723018421 /* Pods_Wedding_Shot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804EDAF806217B6ED8AB2BC6 /* Pods_Wedding_Shot.framework */; };
+		CE0624681DAF8A1A00C6B0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388BD65F1C3F87F1008D9F5E /* Main.storyboard */; };
+		CE06246B1DAF8A3C00C6B0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721829E519E3DEE2004CCE9A /* AppDelegate.swift */; };
+		CE0624781DAFBAAF00C6B0F6 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0624761DAFBAAF00C6B0F6 /* libSystem.tbd */; };
+		CE0624791DAFBAAF00C6B0F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0624771DAFBAAF00C6B0F6 /* SystemConfiguration.framework */; };
+		CE06247A1DAFBACC00C6B0F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0624721DAFA4DF00C6B0F6 /* MobileCoreServices.framework */; };
+		CE06247C1DAFBAD800C6B0F6 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE06247B1DAFBAD800C6B0F6 /* Accelerate.framework */; };
+		CE06247E1DAFBF6B00C6B0F6 /* PayPalBillingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06247D1DAFBF6B00C6B0F6 /* PayPalBillingView.swift */; };
+		CEB877661DB21848001B53F8 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB877651DB21848001B53F8 /* constants.swift */; };
+		CEB877681DB219A3001B53F8 /* paymentResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB877671DB219A3001B53F8 /* paymentResponseTest.swift */; };
+		CEB8776A1DB219F3001B53F8 /* payPalResponseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB877691DB219F3001B53F8 /* payPalResponseTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		380379841C3EEDC7003E90F9 /* bottleCapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bottleCapViewController.swift; sourceTree = "<group>"; };
+		380379861C3EF4CF003E90F9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		383ACB241C1EFA7E0025D1AD /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
+		383ACB251C1EFA7E0025D1AD /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		383ACB261C1EFA7E0025D1AD /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
+		383ACB2C1C1EFE6D0025D1AD /* bottle_shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle_shot.png; sourceTree = "<group>"; };
+		38569A211C3E5BB100A9D867 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		38569A221C3E5BB100A9D867 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		38569A251C3E5BFC00A9D867 /* CustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		38569A261C3E5BFC00A9D867 /* walkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = walkViewController.swift; sourceTree = "<group>"; };
+		38569A291C3E5C0F00A9D867 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38569A2B1C3E5D0100A9D867 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+		388BD6601C3F87F1008D9F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388BD69F1C3F91A7008D9F5E /* billingPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = billingPreviewViewController.swift; sourceTree = "<group>"; };
+		388BD6E01C41B53F008D9F5E /* cartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartViewController.swift; sourceTree = "<group>"; };
+		7202479D19E55E7F00D9F68F /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		72145FFF1AD7A2A9002EDC2A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		721829E019E3DEE2004CCE9A /* Wedding Shot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding Shot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		721829E419E3DEE2004CCE9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721829E519E3DEE2004CCE9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		721829E719E3DEE2004CCE9A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		721829EC19E3DEE2004CCE9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72182A0519E3E4D8004CCE9A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		72182A0719E3E4DD004CCE9A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		72182A0A19E3EA25004CCE9A /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		72182A0E19E408BE004CCE9A /* vignette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vignette.png; sourceTree = "<group>"; };
+		72182A1019E42721004CCE9A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		72BAB9FE1BB178AF0046F234 /* ImageEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditor.swift; sourceTree = "<group>"; };
+		804EDAF806217B6ED8AB2BC6 /* Pods_Wedding_Shot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wedding_Shot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA549F8EB4CC31FB1C5E715 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ADFEFA99E9E9C313DFCC1C /* Pods-Wedding Shot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wedding Shot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wedding Shot/Pods-Wedding Shot.release.xcconfig"; sourceTree = "<group>"; };
+		CE06246A1DAF8A1E00C6B0F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CE06246C1DAF8D6400C6B0F6 /* Wedding Shot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wedding Shot-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE0624711DAF8E7E00C6B0F6 /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		CE0624721DAFA4DF00C6B0F6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CE0624761DAFBAAF00C6B0F6 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		CE0624771DAFBAAF00C6B0F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE06247B1DAFBAD800C6B0F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CE06247D1DAFBF6B00C6B0F6 /* PayPalBillingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayPalBillingView.swift; sourceTree = "<group>"; };
+		CEB877651DB21848001B53F8 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		CEB877671DB219A3001B53F8 /* paymentResponseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paymentResponseTest.swift; sourceTree = "<group>"; };
+		CEB877691DB219F3001B53F8 /* payPalResponseTest.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = payPalResponseTest.swift; sourceTree = "<group>"; };
+		D5270DB3642C991C31695B10 /* Pods-Wedding Shot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wedding Shot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wedding Shot/Pods-Wedding Shot.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		721829DD19E3DEE2004CCE9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE06247C1DAFBAD800C6B0F6 /* Accelerate.framework in Frameworks */,
+				CE06247A1DAFBACC00C6B0F6 /* MobileCoreServices.framework in Frameworks */,
+				CE0624781DAFBAAF00C6B0F6 /* libSystem.tbd in Frameworks */,
+				CE0624791DAFBAAF00C6B0F6 /* SystemConfiguration.framework in Frameworks */,
+				721460001AD7A2A9002EDC2A /* GoogleMobileAds.framework in Frameworks */,
+				72182A1119E42721004CCE9A /* AVFoundation.framework in Frameworks */,
+				72182A0819E3E4DD004CCE9A /* Social.framework in Frameworks */,
+				72182A0619E3E4D8004CCE9A /* CoreImage.framework in Frameworks */,
+				BF66A1101B08444723018421 /* Pods_Wedding_Shot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F238DEEF6101A2624833993 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5270DB3642C991C31695B10 /* Pods-Wedding Shot.debug.xcconfig */,
+				A7ADFEFA99E9E9C313DFCC1C /* Pods-Wedding Shot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38A6B9701C3E69A600D7ABEE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				38569A221C3E5BB100A9D867 /* BWWalkthroughViewController.swift */,
+				38569A211C3E5BB100A9D867 /* BWWalkthroughPageViewController.swift */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		5077D5D09F8E967312743072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE06247B1DAFBAD800C6B0F6 /* Accelerate.framework */,
+				CE0624761DAFBAAF00C6B0F6 /* libSystem.tbd */,
+				CE0624771DAFBAAF00C6B0F6 /* SystemConfiguration.framework */,
+				CE0624721DAFA4DF00C6B0F6 /* MobileCoreServices.framework */,
+				8FA549F8EB4CC31FB1C5E715 /* Pods.framework */,
+				804EDAF806217B6ED8AB2BC6 /* Pods_Wedding_Shot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		721829D719E3DEE2004CCE9A = {
+			isa = PBXGroup;
+			children = (
+				721829E219E3DEE2004CCE9A /* Polaroyd */,
+				721829E119E3DEE2004CCE9A /* Products */,
+				5077D5D09F8E967312743072 /* Frameworks */,
+				2F238DEEF6101A2624833993 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		721829E119E3DEE2004CCE9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				721829E019E3DEE2004CCE9A /* Wedding Shot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		721829E219E3DEE2004CCE9A /* Polaroyd */ = {
+			isa = PBXGroup;
+			children = (
+				388BD65F1C3F87F1008D9F5E /* Main.storyboard */,
+				38569A2B1C3E5D0100A9D867 /* Walkthrough.storyboard */,
+				38569A291C3E5C0F00A9D867 /* LaunchScreen.storyboard */,
+				38569A251C3E5BFC00A9D867 /* CustomPageViewController.swift */,
+				38569A261C3E5BFC00A9D867 /* walkViewController.swift */,
+				38A6B9701C3E69A600D7ABEE /* New Group */,
+				383ACB2C1C1EFE6D0025D1AD /* bottle_shot.png */,
+				383ACB241C1EFA7E0025D1AD /* bottle.png */,
+				383ACB251C1EFA7E0025D1AD /* camera.png */,
+				383ACB261C1EFA7E0025D1AD /* gallery.png */,
+				721829E519E3DEE2004CCE9A /* AppDelegate.swift */,
+				721829E719E3DEE2004CCE9A /* Home.swift */,
+				72BAB9FE1BB178AF0046F234 /* ImageEditor.swift */,
+				721829EC19E3DEE2004CCE9A /* Images.xcassets */,
+				72182A0919E3E4F4004CCE9A /* Frameworks */,
+				721829E319E3DEE2004CCE9A /* Supporting Files */,
+				380379841C3EEDC7003E90F9 /* bottleCapViewController.swift */,
+				380379861C3EF4CF003E90F9 /* TableViewController.swift */,
+				388BD69F1C3F91A7008D9F5E /* billingPreviewViewController.swift */,
+				388BD6E01C41B53F008D9F5E /* cartViewController.swift */,
+				CE06246C1DAF8D6400C6B0F6 /* Wedding Shot-Bridging-Header.h */,
+				CE0624711DAF8E7E00C6B0F6 /* ZZAppDelegate.h */,
+				CE06247D1DAFBF6B00C6B0F6 /* PayPalBillingView.swift */,
+				CEB877651DB21848001B53F8 /* constants.swift */,
+				CEB877671DB219A3001B53F8 /* paymentResponseTest.swift */,
+				CEB877691DB219F3001B53F8 /* payPalResponseTest.swift */,
+			);
+			path = Polaroyd;
+			sourceTree = "<group>";
+		};
+		721829E319E3DEE2004CCE9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72182A0A19E3EA25004CCE9A /* sample.png */,
+				72182A0E19E408BE004CCE9A /* vignette.png */,
+				721829E419E3DEE2004CCE9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72182A0919E3E4F4004CCE9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72145FFF1AD7A2A9002EDC2A /* GoogleMobileAds.framework */,
+				7202479D19E55E7F00D9F68F /* iAd.framework */,
+				72182A1019E42721004CCE9A /* AVFoundation.framework */,
+				72182A0719E3E4DD004CCE9A /* Social.framework */,
+				72182A0519E3E4D8004CCE9A /* CoreImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		721829DF19E3DEE2004CCE9A /* Wedding Shot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 721829FF19E3DEE2004CCE9A /* Build configuration list for PBXNativeTarget "Wedding Shot" */;
+			buildPhases = (
+				511377E82D520B532A544594 /* [CP] Check Pods Manifest.lock */,
+				721829DC19E3DEE2004CCE9A /* Sources */,
+				721829DD19E3DEE2004CCE9A /* Frameworks */,
+				721829DE19E3DEE2004CCE9A /* Resources */,
+				05E3A92F5968A1E6D56A2000 /* [CP] Embed Pods Frameworks */,
+				1EB9CD9BDFDB4C2B419821F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wedding Shot";
+			productName = Polaroyd;
+			productReference = 721829E019E3DEE2004CCE9A /* Wedding Shot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		721829D819E3DEE2004CCE9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "FV iMAGINATION";
+				TargetAttributes = {
+					721829DF19E3DEE2004CCE9A = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = PV5UBBA7V9;
+					};
+				};
+			};
+			buildConfigurationList = 721829DB19E3DEE2004CCE9A /* Build configuration list for PBXProject "Wedding Shot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 721829D719E3DEE2004CCE9A;
+			productRefGroup = 721829E119E3DEE2004CCE9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				721829DF19E3DEE2004CCE9A /* Wedding Shot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		721829DE19E3DEE2004CCE9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38569A2A1C3E5C0F00A9D867 /* LaunchScreen.storyboard in Resources */,
+				CE0624681DAF8A1A00C6B0F6 /* Main.storyboard in Resources */,
+				383ACB2D1C1EFE6D0025D1AD /* bottle_shot.png in Resources */,
+				72182A0F19E408BE004CCE9A /* vignette.png in Resources */,
+				721829ED19E3DEE2004CCE9A /* Images.xcassets in Resources */,
+				72182A0B19E3EA25004CCE9A /* sample.png in Resources */,
+				383ACB281C1EFA7E0025D1AD /* camera.png in Resources */,
+				38569A2C1C3E5D0100A9D867 /* Walkthrough.storyboard in Resources */,
+				383ACB271C1EFA7E0025D1AD /* bottle.png in Resources */,
+				383ACB291C1EFA7E0025D1AD /* gallery.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E3A92F5968A1E6D56A2000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wedding Shot/Pods-Wedding Shot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EB9CD9BDFDB4C2B419821F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wedding Shot/Pods-Wedding Shot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511377E82D520B532A544594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		721829DC19E3DEE2004CCE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE06246B1DAF8A3C00C6B0F6 /* AppDelegate.swift in Sources */,
+				CE06247E1DAFBF6B00C6B0F6 /* PayPalBillingView.swift in Sources */,
+				72BAB9FF1BB178AF0046F234 /* ImageEditor.swift in Sources */,
+				CEB877681DB219A3001B53F8 /* paymentResponseTest.swift in Sources */,
+				38569A281C3E5BFC00A9D867 /* walkViewController.swift in Sources */,
+				38569A231C3E5BB100A9D867 /* BWWalkthroughPageViewController.swift in Sources */,
+				388BD6E11C41B53F008D9F5E /* cartViewController.swift in Sources */,
+				CEB877661DB21848001B53F8 /* constants.swift in Sources */,
+				38569A271C3E5BFC00A9D867 /* CustomPageViewController.swift in Sources */,
+				38569A241C3E5BB100A9D867 /* BWWalkthroughViewController.swift in Sources */,
+				CEB8776A1DB219F3001B53F8 /* payPalResponseTest.swift in Sources */,
+				380379851C3EEDC7003E90F9 /* bottleCapViewController.swift in Sources */,
+				721829E819E3DEE2004CCE9A /* Home.swift in Sources */,
+				388BD6A01C3F91A7008D9F5E /* billingPreviewViewController.swift in Sources */,
+				380379871C3EF4CF003E90F9 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		388BD65F1C3F87F1008D9F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388BD6601C3F87F1008D9F5E /* Base */,
+				CE06246A1DAF8A1E00C6B0F6 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		721829FD19E3DEE2004CCE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		721829FE19E3DEE2004CCE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72182A0019E3DEE2004CCE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5270DB3642C991C31695B10 /* Pods-Wedding Shot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Polaroyd",
+				);
+				INFOPLIST_FILE = Polaroyd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/CardIO/CardIO\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/PayPal-iOS-SDK/PayPalMobile/\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-l\"PayPalMobile\"",
+					"-ObjC",
+					"$(BUILT_PRODUCTS_DIR)/libPayPalMobile.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.tusher;
+				PRODUCT_NAME = "Wedding Shot";
+				SWIFT_OBJC_BRIDGING_HEADER = "Polaroyd/Wedding Shot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		72182A0119E3DEE2004CCE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7ADFEFA99E9E9C313DFCC1C /* Pods-Wedding Shot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULE_DEBUGGING = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Polaroyd",
+				);
+				INFOPLIST_FILE = Polaroyd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/CardIO/CardIO\"",
+					"$(inherited)",
+					"\"${PODS_ROOT}/PayPal-iOS-SDK/PayPalMobile/\"",
+				);
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-l\"PayPalMobile\"",
+					"-ObjC",
+					"$(BUILT_PRODUCTS_DIR)/libPayPalMobile.a",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domain.tusher;
+				PRODUCT_NAME = "Wedding Shot";
+				SWIFT_OBJC_BRIDGING_HEADER = "Polaroyd/Wedding Shot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		721829DB19E3DEE2004CCE9A /* Build configuration list for PBXProject "Wedding Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721829FD19E3DEE2004CCE9A /* Debug */,
+				721829FE19E3DEE2004CCE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		721829FF19E3DEE2004CCE9A /* Build configuration list for PBXNativeTarget "Wedding Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72182A0019E3DEE2004CCE9A /* Debug */,
+				72182A0119E3DEE2004CCE9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 721829D819E3DEE2004CCE9A /* Project object */;
+}
